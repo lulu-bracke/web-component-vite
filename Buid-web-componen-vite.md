@@ -17,7 +17,7 @@ Voici le contenu du fichier de configuration qui a été modifié pour correspon
 
 Dans ce cas précis nous allons plus nous intéresser à la section "build" du fichier de configuration car cette section détermine les options à appliquer lors de l'exécution du build de l'application.
 
-**Note:** A retenir que Vue.js sera inclus par défaut dans le build si rien ne le précise comme dépendance externe. Dans ce cas précis, on ne s'attend pas à ce que Vue.js soit implémenté là où le composant web sera utilisé.
+**Note:** A retenir que Vue.js sera inclus par défaut dans le build si rien ne le précise comme dépendance externe. Dans ce cas précis, on ne s'attend pas à ce que Vue.js soit implémenté là où le composant web sera utilisé, on le laisse donc inclus dans notre build.
 
 Pour obtenir plus de détails sur les options de configuration du build jetez un oeil à la documentation officielle de vite à ce sujet: 
 
@@ -25,12 +25,12 @@ https://vitejs.dev/config/build-options.html
 
 On donnera cependant un peu plus d'explications concernant les informations ci-dessous
 
-vite.config.js
 <img src="readme-ressources/vite-config-build-snapshot.png" alt="image" width="50% " height="auto">
 
 ### Options de configuration: 
 
 **build:** 
+
 Section déterminant toutes les options à appliquer lors du build de l'application
 
 &nbsp; **outDir:**
@@ -38,24 +38,25 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 
 &nbsp; source: https://vitejs.dev/config/build-options.html#build-outdir
 
-&nbsp; Résultat dans l'explorateur de fichier d'un IDE après exécution du build: 
-&nbsp; ![alt text](image.png)
-
 &ensp; **lib:**
+
 &ensp; Option permettant d'adapter les résultats du build de manière à ce qu'il soit réutilisable par d'autres projets (soit le but principal d'une librairie)
-La raison pour laquelle le choix de création d'une librairie s'est fait est qu'il est facile de déterminer différents formats (umd, es, cjs..) pour différents environnements grâce aux options. 
+La raison pour laquelle le choix de création d'une librairie s'est fait est qu'il est facile de déterminer différents formats (umd, es, cjs..) pour différents environnements grâce aux options.
 
 &ensp; sources:
 &ensp; https://vitejs.dev/config/build-options.html#build-lib
 &ensp; https://vitejs.dev/guide/build.html#library-mode
 
 &emsp; **entry:**
+
 &emsp; Détermine le point d'entrée du build, il s'agit du ficher par lequel la première exécution du code de notre application se passe. Dans l'exemple donné, c'est le fichier custom-element-setup.js qui est au coeur de l'exécution de l'application car c'est dans ce fichier que la transformation d'un composant Vue.js en composant web se fait.
 
 &emsp; **name:**
+
 &emsp; Le nom donné à la librairie
 
 &emsp; **formats:**
+
 &emsp; Cette option permet de déterminer les différents formats du code contenu dans fichiers de la librairie.
 
 &emsp; Petite explication sur les formats choisis: 
@@ -65,9 +66,11 @@ La raison pour laquelle le choix de création d'une librairie s'est fait est qu'
 &emsp; **UMD (UNIVERSAL MODULE DEfINITION)** Permet aux modules de fonctionner sur différents environnements, rend la librarie utilisable du côté client comme du côté serveur 
 
 &emsp; **target** 
+
 &emsp; Cette option indique quelle version Javascript doit être utilisée lors du build le code sera ainsi transpilé pour correspondre à la version indiquée. es2015 est la plus ancienne version qu'il est possible de mettre (source: https://vitejs.dev/guide/build.html#browser-compatibility)
 
 &emsp; **minify**
+
 &emsp; Applique la minification du code Javascript lors du build lorsque cette option est active.
 
 &emsp; source: https://vitejs.dev/config/build-options#build-minify
