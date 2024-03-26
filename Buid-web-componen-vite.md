@@ -112,15 +112,23 @@ Le test sur une page web, devrait ressembler à ça, si vous avez vs code, il es
 Sources: 
 
 https://vuejs.org/guide/best-practices/production-deployment.html
+
 https://vitejs.dev/guide/build.html#building-for-production
+
 https://vitejs.dev/guide/build.html#library-mode
+
 https://vitejs.dev/config/
+
 https://vitejs.dev/config/build-options
+
 https://rollupjs.org/configuration-options/
+
 
 
 Rappels: 
 
 Modules:
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#browser_compatibility
+
 https://medium.com/@halilatilla/differences-between-javascript-modules-cjs-amd-umd-and-esm-f60124de131b
