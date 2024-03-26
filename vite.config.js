@@ -4,9 +4,10 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
-
+  
   // Load environment variables from .env file and merge them with current process environment
   // This was necessary to resolve the following error when using the build: Uncaught ReferenceError: process is not defined
+  // https://vitejs.dev/config/#using-environment-variables-in-config
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
 
   return defineConfig({

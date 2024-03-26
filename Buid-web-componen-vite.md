@@ -11,15 +11,13 @@ Le build se crée à partir du fichier de configuration vite.config.js, fichier 
 
 Voici le contenu du fichier de configuration qui a été modifié pour correspondre au build attendu:  
 
-vite.config.js
 <img src="readme-ressources/vite-config-snapshot.png" alt="image" width="65% " height="auto">
-
 
 ### Détail des options du build donné en exemple
 
 Dans ce cas précis nous allons plus nous intéresser à la section "build" du fichier de configuration car cette section détermine les options à appliquer lors de l'exécution du build de l'application.
 
-Note: A retenir que 
+**Note:** A retenir que Vue.js sera inclus par défaut dans le build si rien ne le précise comme dépendance externe. Dans ce cas précis, on ne s'attend pas à ce que Vue.js soit implémenté là où le composant web sera utilisé.
 
 Pour obtenir plus de détails sur les options de configuration du build jetez un oeil à la documentation officielle de vite à ce sujet: 
 
@@ -45,6 +43,7 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 
 &ensp; **lib:**
 &ensp; Option permettant d'adapter les résultats du build de manière à ce qu'il soit réutilisable par d'autres projets (soit le but principal d'une librairie)
+La raison pour laquelle le choix de création d'une librairie s'est fait est qu'il est facile de déterminer différents formats (umd, es, cjs..) pour différents environnements grâce aux options. 
 
 &ensp; sources:
 &ensp; https://vitejs.dev/config/build-options.html#build-lib
@@ -102,7 +101,8 @@ Et voici la manière dont le composant web doit être testé, dans cet exemple, 
 
 <img src="readme-ressources/vite-config-build-html-snapshot.png" alt="image" width="65% " height="auto">
 
-le test sur une page web, devrait ressembler à ça, si vous avez vs code, il est possible de le tester facilement avec l'extension Live Server: 
+
+Le test sur une page web, devrait ressembler à ça, si vous avez vs code, il est possible de le tester facilement avec l'extension Live Server: 
 
 ![alt text](readme-ressources/resultat-web-component-web.png)
 
