@@ -1,4 +1,4 @@
-## Builder un composant web avec vue + vite
+## Mise en place du build d'un composant web avec Vue3 + vite
 
 La mise en place du buid d'un composant web ayant vite par défaut se fait différement qu'avec les projets ayant vue-cli comme base. 
 A l'heure où ce document est écrit, Vue3 intègre vite.js par défaut lors de la création d'un projet, du moins dans la documentation officielle "Quick Start". Il est donc important de faire cette distinction entre les projets avec vite ou sans vite. 
