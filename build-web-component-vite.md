@@ -5,10 +5,15 @@ A l'heure où ce document est écrit, Vue3 intègre vite.js par défaut lors de 
 
 Source: https://vuejs.org/guide/quick-start.html
 
+
+
 ### Préparation
 
-Avant de s'attaquer au fichier de configuration de vite, il est recommandé d'apporter quelques modifications au package.json du projet: 
+Avant de s'attaquer au fichier de configuration de vite, il est recommandé d'apporter quelques modifications au package.json du projet car dans cet exemple, notre composant web sera importé sous la forme d'une librairie: 
 
+![alt text](readme-ressources/json-modifications.png)
+
+Source: https://vitejs.dev/guide/build.html#library-mode
 
 
 Le build se crée à partir du fichier de configuration vite.config.js, fichier se trouvant à la racine du projet: 
@@ -25,7 +30,7 @@ Dans ce cas précis nous allons plus nous intéresser à la section "build" du f
 
 **Note:** A retenir que Vue.js sera inclus par défaut dans le build si rien ne le précise comme dépendance externe. Dans ce cas précis, on ne s'attend pas à ce que Vue.js soit implémenté là où le composant web sera utilisé, on le laisse donc inclus dans notre build.
 
-Pour obtenir plus de détails sur les options de configuration du build jetez un oeil à la documentation officielle de vite à ce sujet: 
+Pour plus d'informations sur les options de configuration du build jetez un oeil à la documentation officielle de vite à ce sujet: 
 
 https://vitejs.dev/config/build-options.html
 
