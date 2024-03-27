@@ -8,7 +8,8 @@ La première chose à faire après la mise en place du projet est de simplement 
 
 Contenu du composant : 
 
-![alt text](readme-ressources/counter-component-file-content.png)
+
+<img src="readme-ressources/counter-component-file-content.png" alt="image" width="80% " height="auto">
 
 ### Transformation en élément personnalisé
 
@@ -21,7 +22,7 @@ Ce fichier est placé dans le dossier src du projet:
 
 Le code permettant de faire de notre composant Vue un composant web: 
 
-![alt text](readme-ressources/cutom-element-setup-file-content.png)
+<img src="readme-ressources/cutom-element-setup-file-content.png" alt="image" width="80% " height="auto">
 
 ### Test en local du composant web
 
@@ -31,15 +32,16 @@ Afin de vérifier si le composant web marche comme attendu, il est nécessaire d
 
 C'est là que prend toute l'importance de l'implementation de notre composant web un peu plus tôt, le nom donné à notre élément personnalisé s'implémente comme une simple balise html
 
-![alt text](readme-ressources/html-for-local-testing.png)
+<img src="readme-ressources/html-for-local-testing.png" alt="image" width="80% " height="auto">
 
 Voici le résultat attendu lorsque vous testerez le rendu de votre page html en localhost: 
 
+
 ![alt text](readme-ressources/localhost-web-component-result.png)
 
-Prochaine étape, faire le build du composant web: 
+Prochaine étape, faire le build du composant web avec la configuration de vite: 
 
-
+https://github.com/lulu-bracke/web-component-vite/blob/main/build-web-component-vite.md
 
 **Sources :** 
 

@@ -9,7 +9,7 @@ Source: https://vuejs.org/guide/quick-start.html
 
 Avant de s'attaquer au fichier de configuration de vite, il est recommandé d'apporter quelques modifications au package.json du projet car dans cet exemple, notre composant web sera importé sous la forme d'une librairie: 
 
-![alt text](readme-ressources/json-modifications.png)
+<img src="readme-ressources/json-modifications.png" alt="image" width="80% " height="auto">
 
 Sans rentrer dans les détails, les options ajoutées définissent la manière dont les fichiers peuvent être importés dans les projets utilisant la bibliothèque qui sera créée plus tard.
 
