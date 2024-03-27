@@ -6,9 +6,9 @@ La première chose à faire après la mise en place du projet est de simplement 
 
 ![alt text](readme-ressources/counter-vue-file.png)
 
-Exemple du compteur:
- 
-![alt text](readme-ressources/web-component-vue-file.png)
+Contenu du composant : 
+
+![alt text](readme-ressources/counter-component-file-content.png)
 
 ### Transformation en élément personnalisé
 
@@ -23,7 +23,7 @@ Le code permettant de faire de notre composant Vue un composant web:
 
 ![alt text](readme-ressources/cutom-element-setup-file-content.png)
 
-### Test du composant web
+### Test en local du composant web
 
 Afin de vérifier si le composant web marche comme attendu, il est nécessaire de le tester, le test se fera dans le fichier index.html à la racine du projet: 
 
@@ -31,7 +31,17 @@ Afin de vérifier si le composant web marche comme attendu, il est nécessaire d
 
 C'est là que prend toute l'importance de l'implementation de notre composant web un peu plus tôt, le nom donné à notre élément personnalisé s'implémente comme une simple balise html
 
-Sources: 
+![alt text](readme-ressources/html-for-local-testing.png)
+
+Voici le résultat attendu lorsque vous testerez le rendu de votre page html en localhost: 
+
+![alt text](readme-ressources/localhost-web-component-result.png)
+
+Prochaine étape, faire le build du composant web: 
+
+
+
+**Sources :** 
 
 Composants Web:
 

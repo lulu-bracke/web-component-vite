@@ -2,13 +2,14 @@
   "name": "web-component-vite",
   "version": "0.0.0",
   "type": "module",
-  "private": true,
-  "main": "dist/index.umd.cjs",
-  "module": "dist/index.js",
-  "types": "dist/custom-element-setup.d.js",
   "files": ["dist"],
+  "main": "dist/web-component-vite.umd.cjs",
+  "module": "dist/web-component-vite.js",
   "exports": {
-    ".": "./dist/index.js"
+    ".": {
+      "import": "./dist/web-component-vite.js",
+      "require": "./dist/web-component-vite.umd.cjs"
+    }
   },
   "scripts": {
     "dev": "vite",

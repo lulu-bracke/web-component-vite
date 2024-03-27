@@ -5,6 +5,12 @@ A l'heure où ce document est écrit, Vue3 intègre vite.js par défaut lors de 
 
 Source: https://vuejs.org/guide/quick-start.html
 
+### Préparation
+
+Avant de s'attaquer au fichier de configuration de vite, il est recommandé d'apporter quelques modifications au package.json du projet: 
+
+
+
 Le build se crée à partir du fichier de configuration vite.config.js, fichier se trouvant à la racine du projet: 
 
 ![alt text](readme-ressources/vite-config-emplacement.png)
@@ -40,8 +46,7 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 
 &ensp; **lib:**
 
-&ensp; Option permettant d'adapter les résultats du build de manière à ce qu'il soit réutilisable par d'autres projets (soit le but principal d'une librairie)
-La raison pour laquelle le choix de création d'une librairie s'est fait est qu'il est facile de déterminer différents formats (umd, es, cjs..) pour différents environnements grâce aux options de vite.
+&ensp; Option permettant d'adapter les résultats du build de manière à ce qu'il soit réutilisable par d'autres projets (soit le but principal d'une librairie, d'où aussi le mon choix de l'avoir implémenté ainsi)
 
 &ensp; sources:
 &ensp; https://vitejs.dev/config/build-options.html#build-lib
