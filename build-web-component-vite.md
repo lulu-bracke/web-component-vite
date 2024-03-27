@@ -1,17 +1,17 @@
 ## Mise en place du build d'un composant web avec Vue3 + vite
 
-La mise en place du buid d'un composant web ayant vite par défaut se fait différement qu'avec les projets ayant vue-cli comme base. 
+La mise en place du buid d'un composant web ayant vite par défaut se fait différement qu'avec les projets ayant vue-cli comme base, la configuration diffère de webpack. 
 A l'heure où ce document est écrit, Vue3 intègre vite.js par défaut lors de la création d'un projet, du moins dans la documentation officielle "Quick Start". Il est donc important de faire cette distinction entre les projets avec vite ou sans vite. 
 
 Source: https://vuejs.org/guide/quick-start.html
-
-
 
 ### Préparation
 
 Avant de s'attaquer au fichier de configuration de vite, il est recommandé d'apporter quelques modifications au package.json du projet car dans cet exemple, notre composant web sera importé sous la forme d'une librairie: 
 
 ![alt text](readme-ressources/json-modifications.png)
+
+Sans rentrer dans les détails, les options ajoutées définissent la manière dont les fichiers peuvent être importés dans les projets utilisant la bibliothèque qui sera créée plus tard.
 
 Source: https://vitejs.dev/guide/build.html#library-mode
 
@@ -22,9 +22,9 @@ Le build se crée à partir du fichier de configuration vite.config.js, fichier 
 
 Voici le contenu du fichier de configuration qui a été modifié pour correspondre au build attendu:  
 
-<img src="readme-ressources/vite-config-snapshot.png" alt="image" width="65% " height="auto">
+<img src="readme-ressources/vite-config-snapshot.png" alt="image" width="80% " height="auto">
 
-### Détail des options du build donné en exemple
+### Options du build donné en exemple
 
 Dans ce cas précis nous allons plus nous intéresser à la section "build" du fichier de configuration car cette section détermine les options à appliquer lors de l'exécution du build de l'application.
 
@@ -36,7 +36,7 @@ https://vitejs.dev/config/build-options.html
 
 On donnera cependant un peu plus d'explications concernant les informations ci-dessous
 
-<img src="readme-ressources/vite-config-build-snapshot.png" alt="image" width="50% " height="auto">
+<img src="readme-ressources/vite-config-build-snapshot.png" alt="image" width="80% " height="auto">
 
 ### Options de configuration: 
 
@@ -112,7 +112,7 @@ exemple:
 Et voici la manière dont le composant web doit être testé, dans cet exemple, on teste les différents formats (umd, es) afin de vérifier que le composant web s'applique bien
 
 
-<img src="readme-ressources/vite-config-build-html-snapshot.png" alt="image" width="65% " height="auto">
+<img src="readme-ressources/vite-config-build-html-snapshot.png" alt="image" width="80% " height="auto">
 
 
 Le test sur une page web, devrait ressembler à ça, si vous avez vs code, il est possible de le tester facilement avec l'extension Live Server: 
