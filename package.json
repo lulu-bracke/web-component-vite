@@ -2,6 +2,7 @@
   "name": "web-component-vite",
   "version": "0.0.0",
   "type": "module",
+  "private": true,
   "main": "dist/index.umd.cjs",
   "module": "dist/index.js",
   "types": "dist/custom-element-setup.d.js",

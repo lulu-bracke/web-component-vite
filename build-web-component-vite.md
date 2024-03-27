@@ -41,7 +41,7 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 &ensp; **lib:**
 
 &ensp; Option permettant d'adapter les résultats du build de manière à ce qu'il soit réutilisable par d'autres projets (soit le but principal d'une librairie)
-La raison pour laquelle le choix de création d'une librairie s'est fait est qu'il est facile de déterminer différents formats (umd, es, cjs..) pour différents environnements grâce aux options.
+La raison pour laquelle le choix de création d'une librairie s'est fait est qu'il est facile de déterminer différents formats (umd, es, cjs..) pour différents environnements grâce aux options de vite.
 
 &ensp; sources:
 &ensp; https://vitejs.dev/config/build-options.html#build-lib
