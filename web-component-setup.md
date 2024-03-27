@@ -41,3 +41,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_components
 Composants web avec Vue.js
 
 https://vuejs.org/guide/extras/web-components
+
+Tutoriel plutôt bien fait sur les composants web avec Vue
+
+https://www.thisdot.co/blog/building-web-components-with-vue-3-2

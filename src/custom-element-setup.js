@@ -1,5 +1,5 @@
 import { defineCustomElement } from 'vue'
-import SimpleCounter from './components/SimpleCounter.ce.vue'
+import SimpleCounter from './components/SimpleCounter.vue'
 
 // Define a custom element using the SimpleCounter Vue component that was imported
 const SimpleCounterElement = defineCustomElement(SimpleCounter);
