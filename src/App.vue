@@ -1,5 +1,5 @@
 <script setup>
-import SimpleCounter from './components/SimpleCounter.ce.vue';
+import SimpleCounter from './components/SimpleCounter.vue';
 </script>
 
 <template>

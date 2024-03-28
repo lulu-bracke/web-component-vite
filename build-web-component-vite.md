@@ -30,6 +30,8 @@ Dans ce cas précis nous allons plus nous intéresser à la section "build" du f
 
 **Note:** A retenir que Vue.js sera inclus par défaut dans le build si rien ne le précise comme dépendance externe. Dans ce cas précis, on ne s'attend pas à ce que Vue.js soit implémenté là où le composant web sera utilisé, on le laisse donc inclus dans notre build.
 
+Vous trouverez plus de précision dans cet article: https://vuejs.org/guide/extras/web-components#tips-for-a-vue-custom-elements-library
+
 Pour plus d'informations sur les options de configuration du build jetez un oeil à la documentation officielle de vite à ce sujet: 
 
 https://vitejs.dev/config/build-options.html
