@@ -115,7 +115,7 @@ exemple:
 
 ![alt text](readme-ressources/vite-build-test-folder.png)
 
-Et voici la manière dont le composant web doit être testé, dans cet exemple, on teste les différents formats (umd, es) afin de vérifier que le composant web s'applique bien
+Et voici la manière dont le composant web doit être testé dans le ficher html. Dans cet exemple, on teste les différents formats (umd, es) afin de vérifier que le composant web s'applique bien
 
 
 <img src="readme-ressources/vite-config-build-html-snapshot.png" alt="image" width="80% " height="auto">
