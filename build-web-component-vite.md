@@ -77,6 +77,10 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 
 &emsp; **UMD (UNIVERSAL MODULE DEfINITION)** Permet aux modules de fonctionner sur différents environnements, rend la librarie utilisable du côté client comme du côté serveur 
 
+sources: 
+
+https://github.com/umdjs/umd
+
 &emsp; **target** 
 
 &emsp; Cette option indique quelle version Javascript doit être utilisée lors du build le code sera ainsi transpilé pour correspondre à la version indiquée. es2015 est la plus ancienne version qu'il est possible de mettre (source: https://vitejs.dev/guide/build.html#browser-compatibility)
@@ -144,3 +148,5 @@ Modules:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#browser_compatibility
 
 https://medium.com/@halilatilla/differences-between-javascript-modules-cjs-amd-umd-and-esm-f60124de131b
+
+https://github.com/umdjs/umd
