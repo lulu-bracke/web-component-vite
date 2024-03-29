@@ -61,7 +61,7 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 
 &emsp; **entry:**
 
-&emsp; Détermine le point d'entrée du build, il s'agit du ficher par lequel la première exécution du code de notre application se passe. Dans l'exemple donné, c'est le fichier custom-element-setup.js qui est au coeur de l'exécution de l'application car c'est dans ce fichier que la transformation d'un composant Vue.js en composant web se fait.
+&emsp; Détermine le point d'entrée du build, Vite commencera à rassembler tous les éléments du build en passant par le fichier donné dans l'option en premier
 
 &emsp; **name:**
 
@@ -69,7 +69,7 @@ Section déterminant toutes les options à appliquer lors du build de l'applicat
 
 &emsp; **formats:**
 
-&emsp; Cette option permet de déterminer les différents formats du code contenu dans fichiers de la librairie.
+&emsp; Cette option affecte la manière dont la bibliothèque est exposée et la façon dont elle peut être importée par d'autres modules.
 
 &emsp; Petite explication sur les formats choisis: 
 
